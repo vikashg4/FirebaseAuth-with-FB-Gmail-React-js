@@ -1,0 +1,186 @@
+.customer{
+
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+
+.iconstyle{
+
+    color: #fff;
+    
+    /* font-size: 30px; */
+}
+
+.fontcolor{
+
+    color: white;
+
+
+}
+
+/* .Number{
+
+    font-size:  ;
+} */
+
+.gradientlight{
+
+
+
+
+     /* background: rgb(53, 138,148); */
+     /* background: rgb(25,118,210); */
+    /* background: linear-gradient(158deg,rgba(53,138,148,1) 0% ,  rgba(91,180,96,1) 100%); */
+     
+    /* background: rgb(39, 53, 108); */
+    /* background: linear-gradient(158deg,rgba(39, 53, 108,1) 0% ,  rgba(39, 53, 108,1) 100%); */ 
+
+    /* background: rgb(39, 44, 74,);
+    background: linear-gradient(158deg,rgba(39, 44, 74,1) 0% ,  rgba(39, 44, 74,1) 100%); */
+
+    /* background: linear-gradient(158deg,rgb(4, 4, 4) 100% ,  rgba(72,158,2431) 100%); */
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);}
+
+.gradientdark{
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+
+
+    /* background: rgb(39, 44, 74,);
+    background: linear-gradient(158deg,rgba(39, 44, 74,1) 0% ,  rgba(39, 44, 74,1) 100%); */
+
+}
+
+.bgcolor{
+  
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(158deg, rgb(255, 255, 255) 100% ,   rgb(255, 255, 255) 100%);
+
+}
+
+
+
+
+
+
+.bgcolorsigninpage{
+
+  min-height: 100vh;
+  
+
+/* 
+  background: rgb(39, 44, 74,);
+    background: linear-gradient(158deg,rgba(39, 44, 74,1) 0% ,  rgba(39, 44, 74,1) 100%); */
+
+/* 
+   min-height: 100vh;
+   background: rgb(0,177,236);
+    background: linear-gradient(158deg,rgba(0,177, 236,1) 50% ,  rgba(0, 131,223,1) 100%); */
+
+  }
+
+
+
+
+.circle-wrap {
+    margin: 130px ;
+    width: 150px;
+    height: 150px;
+    background: #d5d2d5;
+    border-radius: 50%;
+  }
+  .circle-wrap .circle .mask,
+  .circle-wrap .circle .fill {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  .circle-wrap .circle .mask {
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  .circle-wrap .circle .mask .fill {
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #3489ffe4;
+  }
+  .circle-wrap .circle .mask.full,
+  .circle-wrap .circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(126deg);
+  }
+  
+  @keyframes fill {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(126deg);
+    }
+  }
+  .circle-wrap .inside-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #fffcfc;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 2em;
+  }
+
+
+
+
+  .custom-divider {
+    height: 14px; /* set the desired height */
+  }
+  
+  
+
+
+  /* .pagination-white .MuiPaginationItem-root.Mui-selected {
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  .MuiPaginationItem-root{
+    color:white !important;
+  } */
+  .MuiTablePagination-toolbar	{
+    color:white !important;
+  }
+
+
+  .MuiTablePagination-selectLabel{
+
+    text-align: center;
+    align-content: center;
+  }
+  .MuiTablePagination-selectIcon	{
+   
+    color:white !important;
+
+  }
+
+  .MuiCheckbox-colorPrimary{
+
+    color:white !important;
+
+
+  }
+
+  .MuiTableCell-head{
+    font-size: 50px;
+
+  }
+  .MuiTableHead-root	{
+    font-size: 25px !important
+    
+  }
+
